@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SG Lonely Guy Club - Premium Directory</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+    
+    <!-- TOP HEADER -->
+    <div class="container-fluid d-none d-lg-block bg-brand-purple py-2 border-bottom border-secondary border-opacity-25">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="bg-purple-light px-3 py-1 rounded border border-secondary border-opacity-25">
+                <span class="text-white-50 x-small uppercase">Upcoming link:</span>
+                <span class="text-primary x-small ms-1">www.slugclub5.com</span>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/468x60/2d003d/ff3ea5?text=ADS+BANNER" class="h-40" alt="Ads">
+            </div>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand font-display italic d-flex flex-column nav-home" href="#">
+                <span class="text-pink h4 m-0 fw-bold">SGLONELY</span>
+                <small class="text-white-50 x-small tracking-widest" style="font-size: 8px;">GUY CLUB</small>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link nav-home" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">All Girls</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Freelancers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Masseuse</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+                </ul>
+                
+                <div class="d-flex gap-2">
+                    <button class="btn bg-pink text-white rounded-pill px-3 py-1 btn-sm fw-bold">
+                        <i class="fas fa-user-plus me-1"></i> Register
+                    </button>
+                    <button class="btn btn-outline-light rounded-pill px-3 py-1 btn-sm fw-bold border-secondary">
+                        <i class="fas fa-sign-in-alt me-1"></i> Login
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <div class="row g-4">
+            
+            <!-- LEFT SIDEBAR -->
+            <aside class="col-lg-2 d-none d-lg-block">
+                <div class="bg-purple-light p-3 rounded-4 mb-4 border border-secondary border-opacity-10">
+                    <h6 class="text-pink small fw-bold text-uppercase border-bottom border-pink border-opacity-25 pb-2 mb-3">Girls Area:</h6>
+                    <ul class="sidebar-list">
+                        <li><a href="#"><i class="fas fa-circle x-small me-2 opacity-25"></i>Central</a></li>
+                        <li><a href="#"><i class="fas fa-circle x-small me-2 opacity-25"></i>East</a></li>
+                        <li><a href="#"><i class="fas fa-circle x-small me-2 opacity-25"></i>North</a></li>
+                        <li><a href="#"><i class="fas fa-circle x-small me-2 opacity-25"></i>North East</a></li>
+                        <li><a href="#"><i class="fas fa-circle x-small me-2 opacity-25"></i>West</a></li>
+                    </ul>
+                </div>
+
+                <div class="bg-black bg-opacity-25 p-3 rounded-4 mb-4 text-center border border-secondary border-opacity-10">
+                    <small class="text-white-50 x-small text-uppercase d-block mb-2">Total Visitors</small>
+                    <div class="visitor-counter">
+                        <span>2</span><span>7</span><span>6</span>
+                    </div>
+                    <div class="mt-3 x-small text-white-50">
+                        IP: <span class="text-primary">149.154.161.203</span>
+                    </div>
+                </div>
+
+                <img src="https://via.placeholder.com/220x240/2d003d/ff3ea5?text=SIDE+BANNER" class="img-fluid rounded-4 opacity-75" alt="Ad">
+            </aside>
+
+            <!-- MAIN CONTENT -->
+            <div class="col-lg-7">
+                
+                <!-- HOME PAGE -->
+                <div id="page-home">
+                    <section class="mb-5">
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <h4 class="text-uppercase fw-bold m-0"><span class="text-pink">Premium</span> Girls</h4>
+                            <button class="btn btn-sm bg-pink text-white rounded-pill px-4 text-uppercase fw-bold" style="font-size: 10px;">All premium</button>
+                        </div>
+                        <div class="row g-3" id="premium-girls-grid">
+                            <!-- Injected by JS -->
+                        </div>
+                    </section>
+
+                    <section class="mb-5">
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <h4 class="text-uppercase fw-bold m-0"><span class="text-pink">Newly Added</span> Girls</h4>
+                        </div>
+                        <div class="row g-3" id="new-girls-grid">
+                            <!-- Injected by JS -->
+                        </div>
+                    </section>
+
+                    <section class="bg-white bg-opacity-5 p-4 rounded-4">
+                        <h5 class="text-pink text-uppercase fw-bold mb-4">Latest Reviews:</h5>
+                        <div class="border-bottom border-secondary border-opacity-10 pb-3 mb-3">
+                            <div class="d-flex justify-content-between">
+                                <small class="fw-bold">Ri... <span class="text-white-50 italic">wrote:</span></small>
+                                <div class="text-pink x-small">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="small text-white-50 italic mt-2">"Very pretty face, fun to talk to and a very good masseuse. Would definitely book her again 💋"</p>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- DETAIL PAGE (HIDDEN BY DEFAULT) -->
+                <div id="page-detail" style="display: none;">
+                    <div class="bg-white bg-opacity-5 p-4 p-lg-5 rounded-5 border border-secondary border-opacity-10">
+                        <div class="d-flex flex-wrap align-items-center gap-3 mb-4">
+                            <h1 class="text-pink fw-bold h2 m-0" id="detail-name">Name (0000)</h1>
+                            <span class="badge bg-pink text-uppercase">Premium</span>
+                            <span class="badge bg-success text-uppercase">Recommended</span>
+                        </div>
+
+                        <div class="row g-2 mb-4">
+                            <div class="col-6">
+                                <div class="bg-black bg-opacity-50 p-3 rounded-4 text-center border border-white border-opacity-5">
+                                    <div class="text-pink h3 fw-bold m-0">24</div>
+                                    <small class="text-white-50 x-small text-uppercase">Years old</small>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="bg-pink p-3 rounded-4 text-center text-white cursor-pointer">
+                                    <i class="fas fa-phone mb-1"></i>
+                                    <div class="fw-bold small">Call Now</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row g-2 mb-5">
+                            <div class="col-4 col-md-3">
+                                <div class="gal-img neon-border"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500" id="detail-main-img"></div>
+                            </div>
+                            <div class="col-4 col-md-3"><div class="gal-img neon-border"><img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=500"></div></div>
+                            <div class="col-4 col-md-3"><div class="gal-img neon-border"><img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500"></div></div>
+                        </div>
+
+                        <div class="row g-4">
+                            <div class="col-md-7">
+                                <h6 class="text-pink fw-bold text-uppercase mb-3"><i class="fas fa-heart me-1"></i> About Me:</h6>
+                                <div class="small text-white-70 space-y-4">
+                                    <p>Friendly personality from <span id="detail-location">Location</span>, <span id="detail-area">Area</span>.</p>
+                                    <p>Damage 价格: S$200/hr</p>
+                                    <p><i class="far fa-clock me-1"></i> 11:00AM - 4:00AM</p>
+                                    <div class="border-start border-pink ps-3 italic text-white-50 x-small">
+                                        Please let me know you call from SgLonelyGuy Club when calling or message, Thanks.
+                                    </div>
+                                </div>
+                                <hr class="border-secondary border-opacity-25 my-4">
+                                <h6 class="text-pink fw-bold text-uppercase mb-3">Services:</h6>
+                                <div class="row">
+                                    <div class="col-6 service-item"><i class="fas fa-check-circle"></i> Oil Massage</div>
+                                    <div class="col-6 service-item"><i class="fas fa-check-circle"></i> Therapy</div>
+                                    <div class="col-6 service-item"><i class="fas fa-check-circle"></i> Relaxing</div>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="bg-black bg-opacity-25 p-4 rounded-4 border border-secondary border-opacity-10 text-center">
+                                    <div class="mb-3 text-pink">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                    <small class="text-white-50 text-uppercase d-block mb-4">Nationality: Chinese</small>
+                                    <div class="bg-pink p-3 rounded-4 mb-3">
+                                        <div class="small fw-bold text-white-50 uppercase">Rate</div>
+                                        <div class="h4 fw-black m-0">S$200</div>
+                                    </div>
+                                    <button class="btn btn-outline-light btn-sm w-100 rounded-pill border-secondary py-2 text-uppercase fw-bold" style="font-size: 10px;">Add Review</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT SIDEBAR -->
+            <aside class="col-lg-3">
+                <div class="search-widget mb-4 shadow-lg">
+                    <h6 class="text-white text-uppercase fw-bold mb-3"><i class="fas fa-search me-1"></i> Quick Search:</h6>
+                    <div class="mb-2">
+                        <select class="form-select form-select-sm border-0">
+                            <option>Singapore</option>
+                        </select>
+                    </div>
+                    <div class="mb-2">
+                        <select class="form-select form-select-sm border-0">
+                            <option>Select Area</option>
+                            <option>Central</option>
+                            <option>East</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-dark w-100 fw-bold text-uppercase mt-2 py-2" style="font-size: 12px; border-radius: 30px;">Search</button>
+                    <div class="text-center mt-2">
+                        <a href="#" class="text-white x-small text-decoration-none text-uppercase fw-bold opacity-75">Advanced Search</a>
+                    </div>
+                </div>
+
+                <div class="sticky-top" style="top: 100px;">
+                    <img src="https://via.placeholder.com/300x150/000/ff3ea5?text=XBET11+BANNER" class="img-fluid rounded-4 mb-4 shadow" alt="Ad">
+                    <div class="bg-black bg-opacity-50 p-3 rounded-4 border border-secondary border-opacity-20">
+                        <small class="text-pink x-small fw-bold text-uppercase">Welcome Pack</small>
+                        <p class="x-small text-white-50 my-2">100% Credit bonus for new members. Join us today!</p>
+                        <button class="btn btn-outline-pink btn-sm w-100 text-uppercase fw-bold text-pink border-pink" style="font-size: 10px;">Join Club</button>
+                    </div>
+                </div>
+            </aside>
+
+        </div>
+    </main>
+
+    <footer class="bg-black border-top border-secondary border-opacity-10 py-5 mt-5">
+        <div class="container text-center text-lg-start">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h5 class="text-pink font-display italic mb-2">SGLONELY <span class="text-white">GUY CLUB</span></h5>
+                    <p class="x-small text-white-50 m-0">&copy; 2026 SG Lonely Guy Club. All Rights Reserved.</p>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline m-0 text-lg-end x-small text-uppercase fw-bold text-white-50">
+                        <li class="list-inline-item mx-3"><a href="#" class="text-reset text-decoration-none hover-pink">About</a></li>
+                        <li class="list-inline-item mx-3"><a href="#" class="text-reset text-decoration-none hover-pink">Privacy</a></li>
+                        <li class="list-inline-item mx-3"><a href="#" class="text-reset text-decoration-none hover-pink">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery & Bootstrap Bundle JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="/src/script.js"></script>
+</body>
+</html>
+

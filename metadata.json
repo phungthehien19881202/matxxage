@@ -1,0 +1,8 @@
+{
+  "name": "SG Lonely Guy Club - Premium Directory",
+  "description": "A luxury listing directory for profiles with premium features, reviews, and interactive grid layout. Built with React and Tailwind CSS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
