@@ -161,3 +161,8 @@ body {
     color: #28a745;
     margin-right: 10px;
 }
+section.banner img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
