@@ -6,8 +6,8 @@ $(document).ready(function() {
         { id: 1, name: 'Tiffany', code: '3967', location: 'Toa Payoh', area: 'Central', image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500', isPremium: true, isRecommended: true },
         { id: 2, name: 'Lulu', code: '4362', location: 'Tiong Bahru', area: 'Central', image: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=500', isPremium: true, isRecommended: true },
         { id: 3, name: 'Luna', code: '4566', location: 'Farrer Park', area: 'Central', image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500', isPremium: true, isRecommended: false },
-        { id: 4, name: 'Tina', code: '4628', location: 'Ang Mo Kio', area: 'North East', image: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500', isPremium: true, isRecommended: true }
-        { id: 5, name: 'Tina', code: '4628', location: 'Ang Mo Kio', area: 'North East', image: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500', isPremium: true, isRecommended: true }
+        { id: 4, name: 'Tina', code: '4628', location: 'Ang Mo Kio', area: 'North East', image: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500', isPremium: true, isRecommended: true },
+        { id: 5, name: 'Tina', code: '4628', location: 'Ang Mo Kio', area: 'North East', image: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500', isPremium: true, isRecommended: true },
         { id: 6, name: 'Tina', code: '4628', location: 'Ang Mo Kio', area: 'North East', image: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500', isPremium: true, isRecommended: true }
     ];
 
