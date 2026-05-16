@@ -14,7 +14,7 @@ $(document).ready(function() {
         let html = '';
         data.forEach(p => {
             html += `
-                <div class="col-6 col-md-4 col-xl-3 mb-4">
+                <div class="col-6 col-md-4 col-xl-4 mb-4">
                     <div class="profile-card neon-border cursor-pointer view-profile" data-id="${p.id}">
                         ${p.isPremium ? '<div class="premium-badge">PREMIUM</div>' : ''}
                         <img src="${p.image}" alt="${p.name}">
